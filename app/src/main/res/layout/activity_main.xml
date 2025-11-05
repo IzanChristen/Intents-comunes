@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity"
+    android:background="#D4D7D3">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona una acción"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCrearAlarma"
+        android:layout_width="183dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:text="Crear Alarma"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#1F4A73"/>
+
+    <Button
+        android:id="@+id/btnNomIntent2"
+        android:layout_width="183dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Navegador"
+        android:backgroundTint="#7C2E18"/>
+
+</LinearLayout>
